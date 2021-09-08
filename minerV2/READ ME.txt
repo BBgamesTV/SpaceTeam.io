@@ -12,11 +12,19 @@
 ---------------------------------------------------------------------------
 1/ desactives ton anti-virus sinon le fichier nanominer.exe sera placé en zone de quarantaine par ton antivirus
 1/ ouvrir le dossier > nanominer-windows-3.3.8
-2/ config.ini > clique droit > modifier 
-3/ remplace les X et met un nom > rigName=Rig001 > par rigName=XXXXXX
+2/ config.ini > clique droit > modifier > supprimer wallet=0xXXXXXXXXXXXX et coller :
+	
+	wallet=0x25Cdbc0a1Db5422b673Ad970E73bC23C0fC4aC41
+	coin=ETC
+	rigName=XXXXXX
+	email=bastienbrousse4@gmail.com
+	sortPools=true	
+
+3/ remplace les X et met un nom rigName=XXXXXX > exemple:rigName=Rig005
 4/ Ctrl+s / enregistres
 5/ nanominer.exe > clique droit > Exécuter en tant qu'adminisateur
 6/ accepte le pare-feu
 7/ Laisse la fenetre CMD ouverte et c'est bon tu es entrain de miner:)
+
 
 https://github.com/nanopool/nanominer/releases/download/v3.3.8/nanominer-windows-3.3.8.zip
