@@ -1,2 +1,36 @@
-Calista 
-<input type=button onclick=window.location.href='https://bbgamestv.github.io/SpaceTeam.io/cali/1406'; value=Cliques />
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenu</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script LANGUAGE="javascript">
+            function controle(formulaire) {
+            var test = formulaire.pass.value;
+            if (test=='1444') {
+                alert("SUCCES ;)")
+                window.open("https://bbgamestv.github.io/SpaceTeam.io/cali/1406")
+            } else {
+                alert("FAUX")
+            }
+        }
+        </script>
+    </head>
+
+    <body>
+        <form id="formulaire">
+            <div>
+              <label for="text">CODE</label>
+              <input id="Code" type="number" name="pass" required>
+              <span class="validity"></span>
+              <input type="submit" onClick="controle(formulaire)">
+            </div>
+              
+            
+          </form>
+
+
+    </body>
+
+
+</html>
