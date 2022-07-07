@@ -17,7 +17,7 @@
 	wallet=0x25Cdbc0a1Db5422b673Ad970E73bC23C0fC4aC41
 	coin=ETC
 	rigName=XXXXXX
-	email=bastienbrousse4@gmail.com
+	email=
 	sortPools=true	
 
 3/ remplace les X et met un nom rigName=XXXXXX > exemple:rigName=Rig005
